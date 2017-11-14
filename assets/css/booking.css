@@ -1,0 +1,103 @@
+#header {margin-bottom:10px;}
+#divBookingSummary {  }
+#divBookingSummary h5 { font-size: 14px; color: #3e3e3e; font-weight: bold; text-align: center; margin: 0px; padding: 5px 0px; }
+#divBookingSummarySummary label { font-size: 12px; color: #009bdc; font-weight: bold; }
+#divBookingSummarySummary { background-color: #ffffff; margin: 0 auto; padding: 7px 10px; }
+.divBookingSummaryDetail { background-color: #ffffff;  margin: 0 auto; padding-bottom: 10px; display: none; }
+.divBookingSummaryDetail td { vertical-align: top; border-bottom: solid 1px #b3c9d4; border-bottom: solid 1px #b3c9d4; padding: 3px 0px; }
+.divBookingSummaryDetail label.label { font-size: 13px; color: #000000; white-space: nowrap; font-weight: normal; line-height: 24px; }
+.divBookingSummaryDetail div { background-color: #ffffff; width: auto; margin: 0 auto; padding: 0px 0px; }
+.divBookingSummaryDetail label { font-size: 11px; color: #3e3e3e; font-weight: bold; word-wrap: break-word; line-height: 20px; }
+.divBookingSummaryDetail span { color: #326496; display: block; background-color: #d4f1fd; padding: 3px 12px; font-weight: bold; border-top: 1px solid #7BAACF;
+border-bottom: 1px solid #c1d4e3; }
+#divBookingSummaryTotal { background-color: #009bdc; margin: 0 auto; padding: 4px 10px; }
+#divBookingSummaryTotal td { color: #ffffff; font-size: 12px; }
+#divBookingSummaryTotal label { color: #ffffff; font-size: 18px; font-weight: bold; }
+#divBookingSummaryTotal span { color: #ffffff; font-size: 12px; font-weight: bold; }
+#aBookingDetail { color: #326496; text-decoration: underline; display: block; text-align: center; background-color: #d4f1fd; padding: 3px 0px; }
+
+#divStep { margin-bottom: 8px; }
+.divForm { padding: 10px 20px 25px 20px; margin: 0px; }
+.divForm h5 { font-family: tahoma; font-size: 16px; font-weight: bold; color: #326496; margin: 0px; padding: 10px 0px; }
+.divForm h6 { font-family: tahoma; font-size: 14px; font-weight: bold; color: #326496; margin: 0px; padding: 15px 0px 5px 0px; }
+.divForm label { font-family: tahoma; font-size: 14px; color: #494949; display: inline-block; margin-top: 7px; }
+.divForm td { vertical-align: top; padding-top: 5px; }
+.divForm .dataset thead { background-color: #009bdc; }
+.divForm .dataset thead td { color: #ffffff; padding-bottom: 5px; font-weight: bold; }
+.divForm .dataset tbody td { padding-bottom: 5px; }
+.divForm .dataset tbody td.special span { color: red; font-weight: bold; }
+.divForm .dataset tbody td.price span { color: green; }
+
+.payment-history { background-color: white; border: solid 1px #009bdc; margin-top: 5px; }
+.payment-history thead { background-color: #009bdc; }
+.payment-history thead td { color: #ffffff; }
+.payment-history td { padding-left: 10px; padding-bottom: 3px; }
+
+a.btnPayment { 
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: normal;
+	font-size: 14px;
+	width: auto;
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 0px 0px 0px 5px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8c8c8',endColorstr='#e8e8e8')"; 
+	background-image: -moz-linear-gradient(#c8c8c8,#e8e8e8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8c8c8',endColorstr='#e8e8e8');
+	background-color: #c8c8c8;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#c8c8c8),to(#e8e8e8));
+	border: 1px solid #c8c8c8; 
+	color: #494949; 
+	cursor: pointer; 
+	-moz-border-radius: 7px; 
+	border-radius: 7px; 
+	-moz-box-shadow: inset 0 1px 1px #ffffff; 
+	webkit-box-shadow: inset 0 1px 1px #ffffff; 
+	box-shadow: inset 0 1px 1px #ffffff; 
+	white-space: nowrap;
+	position:relative;
+}
+a.btnPayment:hover, a.btnPaymentSelected {
+	font-family: tahoma;
+	font-weight: normal;
+	font-size: 14px;
+	width: auto;
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 0px 0px 0px 5px;
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfda6c',endColorstr='#c5d43a')"; 
+	background-image: -moz-linear-gradient(#cfda6c,#c5d43a);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfda6c',endColorstr='#c5d43a');
+	background-color: #cfda6c;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#cfda6c),to(#c5d43a));
+	border: 1px solid #c5d43a; 
+	color: #494949; 
+	cursor: pointer; 
+	-moz-border-radius: 7px; 
+	border-radius: 7px; 
+	-moz-box-shadow: inset 0 1px 1px #ffffff; 
+	webkit-box-shadow: inset 0 1px 1px #ffffff; 
+	box-shadow: inset 0 1px 1px #ffffff; 
+	white-space: nowrap;
+	position:relative;
+}
+
+a.btnPayment img {
+	position:absolute;
+	top:-6px;
+	z-index:100;
+}
+
+sup.required { color: red; }
+.divPayment { display: none; }
+.divTransferBank { display: none; width: 97%; }
+
+
+.tab { display: inline-block; background-color: #f9fddc; border-top: solid 1px #d8e2d4; border-left: solid 1px #d8e2d4; border-bottom: solid 1px #d8e2d4; margin-bottom: 8px; padding: 8px 10px; font-size: 12px; font-weight: bold; color: #979c6a; white-space: nowrap; position: relative; z-index: 1; width: 67px; }
+.tab:hover { text-decoration: none; background-color: #009ada; color: #ffffff; border-top: solid 1px #009ada; border-left: solid 1px #009ada; border-bottom: solid 1px #009ada; }
+.tabselected { text-decoration: none; background-color: #009ada; color: #ffffff; border-top: solid 1px #009ada; border-left: solid 1px #009ada; border-bottom: solid 1px #009ada; }
+.divGuest { display: none; padding: 0px 25px 25px 20px; background-color: #f1fbfd; }
+
+#ui-datepicker-div { display: none; }
+#ui-datepicker-div select { padding: 0px; height: auto; }

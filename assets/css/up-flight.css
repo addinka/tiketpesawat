@@ -1,0 +1,249 @@
+/*
+Update flight style
+v1.0
+Last Updated: Nov 22, 2013
+Author: http://www.pegipegi.com
+*/
+/** home style **/
+header{
+    -webkit-box-shadow: 0 1px 10px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    0 1px 10px rgba(50, 50, 50, 0.3);
+    box-shadow:         0 1px 10px rgba(50, 50, 50, 0.3);
+}
+.flight-box input[type="text"]{
+    padding: 5px;
+    height: auto;
+}
+.flight-box fieldset.normal_search i{
+    font-size: 18px;
+    top: 8px;
+}
+.flight-box .side{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: normal;
+}
+.flight-box fieldset label{padding-top: 2px;}
+.checkbox.inline{padding-top: 0;}
+.checkbox.inline .tgl-flex{
+    width: 195px;
+    margin-left: 5px;
+    line-height: normal;
+    padding-top: 4px;
+}
+.dewasa{
+    margin-right: 16px !important;
+}
+.top-box .side {
+    padding-top: 10px;
+    padding-bottom: 5px !important;
+}
+.maskapai ul li{padding: 5px 20px;}
+.fsearch-result p{margin-bottom: 5px;}
+.fsearch-result .detail-info{margin-bottom: 10px;}
+.price div.price{
+    margin-left: 5px;
+    min-width: 100px;
+}
+td.price{width: 235px;}
+.box-flightDetail{
+    border: 1px solid rgb(227, 227, 227);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    margin-bottom: 24px;
+}
+.box-flightDetail .totalFlight{
+    -webkit-border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-radius-bottomright: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.headReturn ul li{
+    line-height: normal;
+    min-height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.headReturn ul li.dps{
+    width: 108px;
+    margin: 0 auto;
+    padding: 0 10px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.headReturn ul li.dps i{color: #999; margin: 0 10px;}
+.headReturn ul li.logo-airline{
+    width: 80px;
+    margin: 0 auto;
+    padding: 0 10px;
+    line-height: 60px;
+}
+.headReturn ul li.logo-airline img{height: 40px;}
+.headReturn ul li.date-flight{
+    width: 150px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0 10px;
+    line-height: 60px;
+}
+.headReturn ul li.code-plane{
+    width: 75px;
+    line-height: 60px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.headReturn ul li.date{
+    width: 176px;
+    margin: 0 auto;
+    padding: 13px 10px 0;
+}
+.bodyReturn div:first-child{
+    width: 456px;
+    padding: 19px 20px 18px;
+}
+.bodyReturn div:last-child{
+    padding: 20px 0;
+    width: 200px;
+    text-align: center;
+}
+.bodyReturn p.bagasi i{font-size: 14px; padding-top: 0;}
+#f-book .totalFlight{padding-right: 5px;}
+.totalFlight .tot{line-height: normal; padding-top: 4px;}
+.totalFlight .price{
+    width: 215px;
+    text-align: center;
+}
+.sort{
+    box-shadow: 0px 4px 5px #bbbbbb;
+    background: rgb(235,235,235); /* Old browsers */
+    background: rgb(252,252,252); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(252,252,252,1) 34%, rgba(235,235,235,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(34%,rgba(252,252,252,1)), color-stop(100%,rgba(235,235,235,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 34%,rgba(235,235,235,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(252,252,252,1) 34%,rgba(235,235,235,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(252,252,252,1) 34%,rgba(235,235,235,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(252,252,252,1) 34%,rgba(235,235,235,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: 1px solid rgb(227, 227, 227);
+    padding: 15px 15px 12px;
+}
+.sort h1{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: normal;
+    line-height: 27px;
+}
+.sort h1 strong{font-weight: bold; font-size: 18px; color: #eb5c17; margin: 0 5px;}
+.sort h1 i{color: #999; margin: 0 5px;}
+.f-search .jam{line-height: normal;}
+.f-search .jam .duration{font-size: 12px; color: #888;}
+.price .hrg{
+    line-height: 14px;
+    font-size: 17px;
+    color: #eb5c17;
+    font-weight: bold;
+    padding: 6px 5px 0 10px;
+}
+.price .hrg .reward{
+    font-size: 12px;
+    font-weight: normal;
+    color: #3670b7;
+}
+#flight-table tbody tr td:first-child{width: 160px;}
+#flight-table tbody tr td:first-child img{margin-right: 0;}
+#flight-table tbody tr td:first-child strong{width: 70px; margin-top: 0;}
+#flight-table tbody tr td:nth-child(3){width: 90px;}
+#flight-table tbody tr td:nth-child(4){width: 70px; text-align: left; padding-left: 10px;}
+#flight-table tbody tr td:nth-child(5){width: 300px;}
+.berat{font-size: 12px;}
+.berat.empty{color: #cccccc;}
+.berat i{font-size: 16px; padding-right: 5px; vertical-align: -2px;}
+
+.vertical-fl li{display: inline-block; height: 65px; line-height: 65px;}
+.vertical-fl li:nth-child(1){
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    color: #e95a1c;
+}
+.vertical-fl li:nth-child(2){
+    width: 120px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.vertical-fl li:nth-child(2) img{width: 70px; margin: 0 auto; padding: 0;}
+.vertical-fl li:nth-child(3){
+    width: 90px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.vertical-fl li:nth-child(4){
+    width: 120px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    text-align: center;
+    line-height: normal;
+    height: 45px;
+}
+.vertical-fl li:nth-child(4) .duration{font-size: 12px; color: #888;}
+.vertical-fl li:nth-child(5){
+    width: 210px;
+    padding: 10px 0 0;
+    height: 55px;
+    text-align: center;
+}
+.list-mode .fl-title i{font-size: 18px; margin: 0 10px; vertical-align: -2px;}
+
+.bodyReturn .place .descs, .bodyReturn .user .descs, .bodyReturn .bagasi .descs{
+    width: 227px;
+    line-height: normal;
+}
+#f-book .bodyReturn div:first-child{
+    width: 252px;
+    padding: 10px;
+}
+#f-book .bodyReturn div:last-child{
+    padding: 10px 5px;
+    width: 215px;
+    text-align: center;
+}
+#f-book .headReturn ul li.date{width: 127px; min-height: 35px; padding-top: 10px; line-height: normal;}
+#f-book .headReturn ul li.date p{margin: 0;}
+#f-book .headReturn ul li.date span{font-size: 12px; color: #888;}
+#f-book .headReturn ul li.dps{
+    width: 76px;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+#f-book .headReturn ul li.dps i{margin: 0 5px; font-size: 14px;}
+#f-book .headReturn ul li.logo-airline{height: 40px; overflow: hidden; line-height: normal;}
+#f-book .headReturn ul li.logo-airline img{height: 40px;}
+#f-book .totalFlight .label-price{
+    font-size: 18px;
+    margin: 0;
+    padding: 0 !important;
+}
+#f-book span.reward{color: #3670b7;}
+
+.form-inline label{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.day h4{margin-bottom: 0;}
+#slideCarousel .carousel-inner, #slideCarousel2 .carousel-inner{height: 63px;}

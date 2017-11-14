@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.myautocomplete{
+    background-color:#f4f4f4;
+    width:430px;
+    max-height:400px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    display:block; 
+    border:1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding-right: 0px;
+    visibility: visible;
+}         
+	 
+.autoitem{border-bottom:1px solid #CCC; padding:3px 5px; background-color:#f4f4f4}         
+	 
+.myautocomplete span{display:block;}         
+	 
+.areatitle{font-weight:bold; background-color:#ef7814; color:#fff; padding:3px 5px; font-size:14px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.autoitem.selected {
+    background-color: #ccc;
+}         
